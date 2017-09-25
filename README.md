@@ -11,7 +11,7 @@ The following **required** functionality is completed:
 * [x] User can **search for news article** by specifying a query and launching a search. Search displays a grid of image results from the New York Times Search API.
 * [x] User can click on "settings" which allows selection of **advanced search options** to filter results
 * [x] User can configure advanced search filters such as:
-  * [x] Begin Date (using a date picker)
+  * [ ] Begin Date (using a date picker)
   * [ ] News desk values (Arts, Fashion & Style, Sports)
   * [x] Sort order (oldest or newest)
 * [x] Subsequent searches have any filters applied to the search results
@@ -46,13 +46,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/KWNjxCQ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+To get endless scrolling work with RecyclerView and sort articles by date. To retain similar visible section as phone rotates.
 
 ## Open-source libraries used
 
@@ -61,7 +63,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2017 Felix Huang
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
