@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NYTimesSearch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintSearchQuery">Enter Search Query</string>
+    <string name="search">Search</string>
+    <string name="title_activity_article">ArticleActivity</string>
+
+    <string-array name="datesort_array">
+        <item>From Newest to Oldest</item>
+        <item>From Oldest to Newest</item>
+        <item>None</item>
+    </string-array>
+</resources>
